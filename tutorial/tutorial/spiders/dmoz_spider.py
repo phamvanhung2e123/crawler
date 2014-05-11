@@ -24,11 +24,15 @@ class DmozSpider(Spider):
         i=0
         for chapter in chapters:
             i +=1
-            name= chapter.xpath('h4/text()').extract()
-            print name
-            name = chapter.xpath('a[contains(@href, "page")]/text()').extract()
-            print name
-            #self.download_photo('http://www.dragonball-multiverse.com/jp/pages/final/0722.png',str(i),)
+            name =chapter.xpath('h4/text()').extract()
+            if name:
+                print unicode(name.pop())
+            images = chapter.xpath('p/a[contains(@href, "page")]/text()').extract()
+            small_image = images[0]
+            self.download_photo('http://www.dragonball-multiverse.com/jp/pages/final/0722.png',str(i),)
+            for image in images:
+
+                self.download_photo('http://www.dragonball-multiverse.com/jp/pages/final/0722.png',str(i),)
 
 
     def download_photo(self, img_url, folder_name, filename):
@@ -49,3 +53,6 @@ class DmozSpider(Spider):
         except:
             return False
         return True
+
+    def getpng(self,id):
+        return "%4s.jpg" %id

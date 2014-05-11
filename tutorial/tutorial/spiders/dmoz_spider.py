@@ -21,19 +21,23 @@ class DmozSpider(Spider):
         open(filename, 'wb').write(response.body)
         self.download_photo('http://www.dragonball-multiverse.com/jp/pages/final/0024.png','1','1.png')
         chapters = sel.xpath('//div[contains(@class, "cadrelect")]')
-        i=0
+        i= -2
         for chapter in chapters:
             i +=1
             name =chapter.xpath('h4/text()').extract()
             if name:
+                print self.getfoldername(chapter)
                 print unicode(name.pop())
             images = chapter.xpath('p/a[contains(@href, "page")]/text()').extract()
             if images:
-                #print 'http://www.dragonball-multiverse.com/jp/pages/small/'+ self.getpng(images[0])
-                self.download_photo('http://www.dragonball-multiverse.com/jp/pages/small/'+ self.getpng(images[0]), str(i), 'small_' + self.getpng(images[0]))
+
+                #self.download_photo('http://www.dragonball-multiverse.com/jp/pages/small/'+ self.getpng(images[0]), str(i), 'small_' + self.getpng(images[0]))
+                #self.download_photo('http://www.dragonball-multiverse.com/jp/pages/small/'+ self.getjpg(images[0]), str(i), 'small_' + self.getjpg(images[0]))
                 for image in images:
-                    #print 'http://www.dragonball-multiverse.com/jp/pages/final/' + self.getpng(image)
-                    self.download_photo('http://www.dragonball-multiverse.com/jp/pages/final/' + self.getpng(image),str(i), self.getpng(image))
+                    pass
+                    #self.download_photo('http://www.dragonball-multiverse.com/jp/pages/final/' + self.getpng(image),str(i), self.getpng(image))
+                    #self.download_photo('http://www.dragonball-multiverse.com/jp/pages/final/' + self.getjpg(image),str(i), self.getjpg(image))
+
 
 
     def download_photo(self, img_url, folder_name, filename):
@@ -57,3 +61,12 @@ class DmozSpider(Spider):
 
     def getpng(self,id):
         return "%#04d.png" %(int(id.split('-')[0]))
+
+    def getjpg(self,id):
+        return "%#04d.jpg" %(int(id.split('-')[0]))
+
+
+    def getfoldername(self,chapter):
+        name =chapter.xpath('a[contains(@href, "chapter")]/@href').extract()
+        folder_name = name.split('=')[1]
+        return folder_name

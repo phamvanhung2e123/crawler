@@ -28,11 +28,12 @@ class DmozSpider(Spider):
             if name:
                 print unicode(name.pop())
             images = chapter.xpath('p/a[contains(@href, "page")]/text()').extract()
-            small_image = images[0]
-            self.download_photo('http://www.dragonball-multiverse.com/jp/pages/final/0722.png',str(i),)
-            for image in images:
-
-                self.download_photo('http://www.dragonball-multiverse.com/jp/pages/final/0722.png',str(i),)
+            if images:
+                print 'http://www.dragonball-multiverse.com/jp/pages/small/'+ self.getpng(images[0])
+                #self.download_photo('http://www.dragonball-multiverse.com/jp/pages/small/'+ self.getpng(images[0]), str(i), 'small_' + self.getpng(images[0]))
+                for image in images:
+                    print 'http://www.dragonball-multiverse.com/jp/pages/final/' + self.getpng(image)
+                #    self.download_photo('http://www.dragonball-multiverse.com/jp/pages/final/' + self.getpng(image),str(i), self.getpng(image))
 
 
     def download_photo(self, img_url, folder_name, filename):

@@ -28,15 +28,13 @@ class DmozSpider(Spider):
             if name:
                 print self.getfoldername(chapter)
                 print unicode(name.pop())
-            images = chapter.xpath('p/a[contains(@href, "page")]/text()').extract()
-            if images:
-
-                #self.download_photo('http://www.dragonball-multiverse.com/jp/pages/small/'+ self.getpng(images[0]), str(i), 'small_' + self.getpng(images[0]))
-                #self.download_photo('http://www.dragonball-multiverse.com/jp/pages/small/'+ self.getjpg(images[0]), str(i), 'small_' + self.getjpg(images[0]))
-                for image in images:
-                    pass
-                    #self.download_photo('http://www.dragonball-multiverse.com/jp/pages/final/' + self.getpng(image),str(i), self.getpng(image))
-                    #self.download_photo('http://www.dragonball-multiverse.com/jp/pages/final/' + self.getjpg(image),str(i), self.getjpg(image))
+                images = chapter.xpath('p/a[contains(@href, "page")]/text()').extract()
+                if images:
+                    self.download_photo('http://www.dragonball-multiverse.com/jp/pages/small/'+ self.getpng(images[0]), str(i), 'small_' + self.getpng(images[0]))
+                    self.download_photo('http://www.dragonball-multiverse.com/jp/pages/small/'+ self.getjpg(images[0]), str(i), 'small_' + self.getjpg(images[0]))
+                    for image in images:
+                        self.download_photo('http://www.dragonball-multiverse.com/jp/pages/final/' + self.getpng(image),str(i), self.getpng(image))
+                        self.download_photo('http://www.dragonball-multiverse.com/jp/pages/final/' + self.getjpg(image),str(i), self.getjpg(image))
 
 
 
@@ -45,7 +43,7 @@ class DmozSpider(Spider):
             image_on_web = urllib.urlopen(img_url)
             if image_on_web.headers.maintype == 'image':
                 buf = image_on_web.read()
-                path = os.getcwd() + '/' + folder_name + '/'
+                path = os.getcwd() + '/downloads/' + folder_name + '/'
                 if not os.path.exists(path):
                     os.makedirs(path)
                 file_path = "%s%s" % (path, filename)
@@ -68,5 +66,5 @@ class DmozSpider(Spider):
 
     def getfoldername(self,chapter):
         name =chapter.xpath('a[contains(@href, "chapter")]/@href').extract()
-        folder_name = name.split('=')[1]
+        folder_name = name[0].split('=')[1]
         return folder_name

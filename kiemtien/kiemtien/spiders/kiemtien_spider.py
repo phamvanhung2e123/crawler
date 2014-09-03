@@ -12,27 +12,7 @@ class KiemtienSpider(Spider):
     name = "kiemtien"
     allowed_domains = ["dmoz.org"]
     start_urls = [
-        "file:///Users/phamvanhung/Downloads/chokai/chokai1.2/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai1.3/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai1.4/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai1.5/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai2.1/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai2.2/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai2.3/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai2.4/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai2.6/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai2.7/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai3.1/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai3.2/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai3.3/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai3.4/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai3.5/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai4.1/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai4.2/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai4.3/N2 Choukai Soumatome.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai4.4/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai4.5/index.php.html",
-        "file:///Users/phamvanhung/Downloads/chokai/chokai5.1_end/index.php.html",
+        "file:///Users/phamvanhung/Downloads/chokai/chokai1.1/index.php.html"
     ]
 
     def parse(self, response):
@@ -54,11 +34,11 @@ class KiemtienSpider(Spider):
     def download_audio(self, folder_name, audio_name, audio_url):
         try:
             image_on_web = urllib.urlopen(audio_url)
-            if image_on_web.headers.maintype == 'mp3':
+            if image_on_web.headers.maintype == 'audio':
                 print audio_url
                 print audio_name
                 buf = image_on_web.read()
-                path = '/Users/phamvanhung/Downloads/choukai/' + folder_name + '/Audio/FD6/'
+                path = '/Users/phamvanhung/Downloads/chokai/' + folder_name + '/Audio/FD6/'
                 if not os.path.exists(path):
                     os.makedirs(path)
                 file_path = "%s%s" % (path, audio_name)
@@ -66,7 +46,6 @@ class KiemtienSpider(Spider):
                 downloaded_image.write(buf)
                 downloaded_image.close()
                 image_on_web.close()
-
             else:
                 return False
         except:

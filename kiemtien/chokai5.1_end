@@ -1,0 +1,1620 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0061)http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="723032654379258" property="fb:app_id">
+<script src="./index.php_files/cb=gapi.loaded_1" async=""></script><script src="./index.php_files/cb=gapi.loaded_0" async=""></script><script id="facebook-jssdk" src="./index.php_files/all.js"></script><script type="text/javascript" async="" src="./index.php_files/ga.js"></script><script type="text/javascript" src="./index.php_files/jquery.js"></script>
+<script type="text/javascript" src="./index.php_files/jquery-easing.js"></script>
+<script type="text/javascript" src="./index.php_files/jquery-cookie.js"></script>
+<script type="text/javascript" src="./index.php_files/jquery.fancybox-1.3.4.js"></script>
+<script type="text/javascript" src="./index.php_files/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="./index.php_files/script.js"></script>
+<script src="./index.php_files/SpryValidationTextField.js" type="text/javascript"></script>
+<link href="./index.php_files/SpryValidationTextField.css" rel="stylesheet" type="text/css">
+<script src="./index.php_files/SpryValidationPassword.js" type="text/javascript"></script>
+<script src="./index.php_files/SpryValidationConfirm.js" type="text/javascript"></script>
+<link href="./index.php_files/SpryValidationPassword.css" rel="stylesheet" type="text/css">
+<link href="./index.php_files/SpryValidationConfirm.css" rel="stylesheet" type="text/css">
+<script src="./index.php_files/SpryValidationCheckbox.js" type="text/javascript"></script>
+<link href="./index.php_files/SpryValidationCheckbox.css" rel="stylesheet" type="text/css">
+<script>
+$(document).ready(function() {
+  var playing = false;
+	
+	$('.player').each(function(index, element) {
+        $(this).attr('id','player'+index);
+    });
+	
+	$('.playerbt').each(function(index, element) {
+        $(this).attr('rel','player'+index);
+    });
+  $('.playerbt').click(function() {
+	  player = document.getElementById($(this).attr('rel'));
+       $(this).toggleClass("down");
+      if (player.paused) {
+		  $('audio').each(function() { if(!this.paused){this.pause(); }
+			});
+		 $('.playerbt').not(this).removeClass('down');
+          player.play();
+      } else {
+        player.pause();
+      }
+	 
+  });
+});
+</script>
+<style>
+.playwrap{display:inline-block}
+.playerbt{display:block; width:16px; height:16px; background:url(images/play.png)}
+.playerbt.down{background:url(images/pause.png)}
+</style>
+<script>
+$(document).ready(function() {
+	$a=0;
+	if($a>0){
+		if (confirm('Bạn có '+$a+' tin nhắn. Bạn có muốm xem tin nhắn không ?.')){ 
+			 window.location.replace("?p=trangcanhan");	
+		}
+	} 
+});
+</script>
+<script type="text/javascript" src="./index.php_files/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "49c19726-c906-4d99-b41c-c2e347b3a1ef"}); </script>
+<script type="text/javascript" src="./index.php_files/dictionary.js"></script>
+<link rel="stylesheet" type="text/css" href="./index.php_files/jquery.fancybox-1.3.4.css">
+<link rel="stylesheet" type="text/css" href="./index.php_files/style.css">
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29402726-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!--[if lt IE 7]>
+<script type="text/javascript" src="js/fix.js"></script>
+<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+<script>
+    DD_belatedPNG.fix('#main-menu #home a');
+ 	DD_belatedPNG.fix('#logo');
+	DD_belatedPNG.fix('#web-name');
+	DD_belatedPNG.fix('#slogan');
+	DD_belatedPNG.fix('#main-menu li li span');
+	DD_belatedPNG.fix('#main-menu li ul.sub1');
+	DD_belatedPNG.fix('#search');
+	DD_belatedPNG.fix('#search-bt');
+    DD_belatedPNG.fix('.kqdich span');
+</script>
+<![endif]-->
+
+<title></title>
+<!-- 6RmfWMHxYQLBV3J7NiQ9YRmJWaA -->
+<meta content="" name="description">
+<meta content="" name="keywords">
+<meta content="INDEX,FOLLOW" name="robots">
+<noscript>
+    &lt;div style="position: fixed; top: 0px; left: 0px; z-index: 3000; 
+                height: 100%; width: 100%; background-color: #FFFFFF"&gt;
+        &lt;p style="margin-left: 10px"&gt;Xin vui lòng không tắt script để các hiệu ứng của website chạy tốt hơn. Xin cám ơn&lt;/p&gt;
+    &lt;/div&gt;
+</noscript>
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}.fb_connect_bar a:hover{color:#fff}.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}.fbpluginrecommendationsbarleft{left:10px}.fbpluginrecommendationsbarright{right:10px}</style><script type="text/javascript" src="./index.php_files/getAllAppDefault.esi"></script><style type="text/css"></style><style type="text/css"></style><script type="text/javascript" src="./index.php_files/checkOAuth.esi"></script><link rel="stylesheet" type="text/css" href="./index.php_files/buttons.5be48d105d7701b1bc41eccdea7af7f3.css"><script type="text/javascript" src="./index.php_files/getCount2.php"></script><script type="text/javascript" src="./index.php_files/plusone.js" gapi_processed="true"></script></head>
+<body onclick="if(stWidget.buttonClicked==false){stWidget.stopClosing=false;stWidget.openDuration=0;stWidget.stClose(100);}">
+	<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" src="./index.php_files/dgdTycPTSRj.html" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" src="./index.php_files/dgdTycPTSRj(1).html" style="border: none;"></iframe></div></div></div>
+	<script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1&appId=723032654379258";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <a href="http://old.lophoctiengnhat.com/included/tracuutudien.php?tracuu=" rel="" class="sometext" id="button" style="display: none;">&nbsp;</a>
+	<div class="che"></div>
+    <div id="page-bg">
+        
+        <div id="wrapper">
+            <div id="top-bar"><!-- top-bar-->
+    <div id="top-bar-left">
+              <form style="float:left; margin-top:5px">
+        	<span id="tracuu-label" style="color:#FFF"><strong>Tra cứu: </strong></span>
+            <input type="hidden" value="tieude" name="cachtracuu">
+            <input type="hidden" value="ketquatracuu" name="p">
+        	<select name="id">
+            	<option value="1">Từ vựng</option>
+            	<option value="2">Ngữ pháp</option>
+            	<option value="3">Hán tự</option>
+            </select>
+          <input name="tukhoa" type="text" size="30">
+          <input type="submit" value="Tra cứu">
+        </form>
+        
+    </div>
+    <div id="top-bar-right">
+    
+    
+                
+<script>
+$(document).ready(function(){
+	var timerId = setInterval('refres_once_user()', 10000);
+});	
+function refres_once_user(){
+	$.ajax({
+		scriptCharset: "utf-8" ,
+		contentType: "application/x-www-form-urlencoded; charset=utf-8",
+		url : "included/topbar_menu/check_one_account.php",
+		type : "POST",
+		datatype : 'html',
+		async:false,
+		data : "iduser=NiIzYdOH2yDwKdTgwkGRSLVDvdEwKr9BjYdS0SWnY0S3RFMgvt",
+		success : function(html){
+			if(html==1){
+				$.fancybox({
+					'content' : '<p>Bạn đã đăng nhập tài khoản này ở thiết bị khác. Tài khoản của bạn tại đây đã tự động đăng xuất.</p>'
+				});
+				setTimeout(function(){
+					document.location.reload();
+				}, 3000);
+			}
+		}	
+	});
+}
+</script> 
+     
+
+<script>
+function hienthongbao(){
+	var chieucao=$(document).height();
+	$("#che").css("display","");
+	$("#che").css("height", chieucao);
+	$("#che").fadeTo(0,0.7);	
+}
+function dongthongbao(){
+	$("#che").css("display","none");
+}
+</script>                
+         <ul>
+        <li><img src="./index.php_files/saved_resource"></li>
+                <li> 
+        	<img title="Ngày hết hạn VIP: 29-04-2014 còn 1 ngày." src="./index.php_files/vip_icon.gif" style="padding-top:10px">
+        </li>
+                <li>| <a href="http://lophoctiengnhat.com/ca-nhan.html">Dinh Nhat</a></li>
+        <li>| 
+        	<a href="http://lophoctiengnhat.com/huong-dan-nap-credit.html">
+            	Nạp Credit
+            </a> 
+        </li>
+        
+        <li>| <a href="http://old.lophoctiengnhat.com/included/topbar_menu/thoat.php">Thoát</a></li>
+       </ul>
+      </div>
+</div>    
+            <div id="main-menu">
+        	<ul>
+            	<li id="home"><a href="http://old.lophoctiengnhat.com/index.php?p=home"></a></li>
+                        
+                <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#">Lớp học</a>
+                	                	<ul class="sub1">
+                    	                        <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=2380">Thông Báo</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=2579">THÔNG BÁO TUYỂN SINH</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=3400">LỚP HỌC 360 _ HỌC TỪ VỰNG</a>
+                        	 
+                       </li>
+                        
+                    </ul>
+                	 
+                </li>
+                
+                        
+                <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#">Sơ cấp</a>
+                	                	<ul class="sub1">
+                    	                        <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=212">Khóa Vỡ Lòng </a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=34">List 50 bài học Minnano Nihongo</a>
+                        	 
+                       </li>
+                        
+                    </ul>
+                	 
+                </li>
+                
+                        
+                <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#">Trung cấp</a>
+                	                	<ul class="sub1">
+                    	                        <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=186">Thời Khóa Biểu Luyện thi N2, N3, N4, N5</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=158">そうまとめポイント２０(Ôn Ngữ Pháp Sơ C)</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1766">173 mẫu ngữ pháp N2&amp;N3</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=161">N3_Ngữ Pháp (G.Trình: 日本語総まとめ)</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=162">N3_Từ Vựng (G.Trình: 日本語総まとめ)</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=163">N3_Hán tự (G.Trình: 日本語総まとめ)</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=164">N3_Bài Đọc (G.Trình: 日本語総まとめ)</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=165">N3_Luyện Nghe (G.Trình: 日本語総まとめ)</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=166">N2_Ngữ Pháp (G.Trình: 日本語総まとめ)</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=167">N2_Từ Vựng (G.Trình: 日本語総まとめ)</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=168">N2_Hán tự (G.Trình: 日本語総まとめ)</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=169">N2_Bài Đọc (G.Trình: 日本語総まとめ)</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=170">N2_Luyện nghe (G.Trình: 日本語総まとめ)</a>
+                        	 
+                       </li>
+                        
+                    </ul>
+                	 
+                </li>
+                
+                        
+                <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=45">Ôn tập</a>
+                	                	<ul class="sub1">
+                    	                        <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=45">Xem các phần ôn tập</a>
+                        	 
+                       </li>
+                        
+                    </ul>
+                	 
+                </li>
+                
+                        
+                <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#">Hán tự</a>
+                	                	<ul class="sub1">
+                    	                        <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=186">Thời Khóa Biểu Học Hán Tự</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1004">Giới Thiệu Và Hướng Dẫn</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1009">Học 60 Bộ  Chữ Hán Tự Cơ Bản</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1041">Học 100 chữ Hán tự cơ bản</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=62">Hán Tự 800</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=150">Bài học âm Hán Việt từ vựng 50 bài Minna</a>
+                        	 
+                       </li>
+                        
+                    </ul>
+                	 
+                </li>
+                
+                        
+                <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#">Luyện nghe</a>
+                	                	<ul class="sub1">
+                    	                        <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=182">（N1・N2聴解＿練習ブック）</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=184">これで大丈夫_N2&amp;N3</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=185">これで大丈夫_N4&amp;N5</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=190">N3＿聞く</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=191">N2＿聞く</a>
+                        	 
+                       </li>
+                        
+                    </ul>
+                	 
+                </li>
+                
+                        
+                <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#">Luyện đọc</a>
+                	                	<ul class="sub1">
+                    	                        <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=209">マンガで学ぶ（レベルN1～N3）</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=179">N4 _ 55 Bài Dokkai</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=156">Tổng hợp các bài Dokkai trong đề thi </a>
+                        	 
+                       </li>
+                        
+                    </ul>
+                	 
+                </li>
+                
+                        
+                <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#">Hội thoại</a>
+                	                	<ul class="sub1">
+                    	                        <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=152">Sơ Cấp 1 (Giáo Trình Shadowing)</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=193">Trung Cấp 1 (Giáo Trình Shadowing)</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=157">Trung Cấp 2 (Business nihongo 30jikan)</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=194">Video Nihonjin shiranai Nihongo</a>
+                        	 
+                       </li>
+                        
+                    </ul>
+                	 
+                </li>
+                
+                        
+                <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#">Trắc nghiệm</a>
+                	                	<ul class="sub1">
+                    	                        <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=4099">Đề Thi Trắc Nghiệm N1</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=4098">Đề Thi Trắc Nghiệm N2</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=4097">Đề Thi Trắc Nghiệm N3</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=4096">Đề Thi Trắc Nghiệm N4</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=4095">Đề Thi Trắc Nghiệm N5</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1122">Đề thi Đại Học &amp; tốt nghiệp THPT</a>
+                        	 
+                       </li>
+                        
+                    </ul>
+                	 
+                </li>
+                
+                        
+                <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=140">Tài liệu</a>
+                	 
+                </li>
+                
+                        
+                <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=456">Tra cứu</a>
+                	                	<ul class="sub1">
+                    	                        <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#">Hướng Dẫn Tra Cứu</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=tracuu&id=2">Tra Cứu Ngữ Pháp</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=tracuu&id=3">Tra Cứu Hán Tự</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=tracuu&id=1">Tra Cứu Từ Vựng</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=458">Tra Cứu Theo Yêu Cầu</a>
+                        	 
+                       </li>
+                        
+                    </ul>
+                	 
+                </li>
+                
+                        
+                <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#">Ngoại Khóa</a>
+                	                	<ul class="sub1">
+                    	                        <li><a href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=207">NHK NEWS</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=3718">Nghe Và Đọc Truyện Theo Cấp Độ</a>
+                        	 
+                       </li>
+                                               <li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=3840">Nghe &amp; Đọc Truyện Mỗi Tuần</a>
+                        	 
+                       </li>
+                        
+                    </ul>
+                	 
+                </li>
+                
+                        <li><a href="http://old.lophoctiengnhat.com/index.php?p=thongke">Thống kê</a> 
+            </li><li><a href="http://old.lophoctiengnhat.com/index.php?p=chat">Chat box</a>
+            </li>    
+            </ul>
+</div> <!-- main menu-->    
+            <div id="header">
+
+        	<div id="web-name"></div>
+
+            <a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#" id="logo"></a>
+
+            <div id="slogan"></div>
+
+           <!-- <div id="search">
+
+       	    <form action="" method="get">
+           		<input name="p" type="hidden" value="timkiem" />
+                <input id="search-txt" name="search-txt" type="text" onfocus="if(this.value=='Từ khóa cần tìm') this.value=''" onblur="if(this.value=='') this.value='Từ khóa cần tìm'" value="Từ khóa cần tìm" />
+                <input  name="search-bt" type="submit" id="search-bt" value="Tìm" />
+           </form>
+
+            </div>-->
+
+        </div> <!-- Header-->    
+             <div id="top-curve"></div>
+
+        <div id="content-bg">
+
+        	<div id="left-col">
+;
+
+
+
+
+<div id="left-top">
+	<div id="left-top-curve"></div>
+	<div id="left-title">Tên loại bài</div>
+	<div id="left-subtitle">第5章_まとめ問題 （日本語総まとめN2_聴解）</div>
+<a class="chedoxem" target="_blank" href="http://old.lophoctiengnhat.com/full.php?id=1492">Xem bản rút gọn</a>
+	<div style="float:right; margin:5px; overflow:hidden">
+        <span style="display:inline-block; float:left"><strong>Hoàn thành: </strong></span>
+        <span style="margin-top:2px; display:inline-block; float:left">
+    	<a class="hoantat" title="Bài này chưa đánh dấu hoàn thành. Click để đánh dấu hoàn tất." href="http://old.lophoctiengnhat.com/index.php?p=hoantatbaihoc&id=B1492"></a>        </span> 	 
+	</div>
+</div>
+
+<div id="left-content">
+<p>
+	
+								</p><div class="tab_container"><ul class="tabs"><li class="active"><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#" rel="#tab1">タイトル</a></li><li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#" rel="#tab3" name="advtab">問題I</a></li><li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#" rel="#tab4" name="advtab">問題II</a></li><li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#" rel="#tab5" name="advtab">問題III</a></li><li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#" rel="#tab6" name="advtab">問題IV</a></li><li><a href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=1492#" rel="#tab7" name="advtab">問題V</a></li></ul><div class="tab_content" id="tab1" style="display: block;"><p></p>
+<p>
+	<a class="motaicho 720" href="./index.php_files/N2_Choukai_Chuong5Phan1_01.png"><img alt="" src="./index.php_files/N2_Choukai_Chuong5Phan1_01.png" style="width: 630px; height: 130px;"></a></p>
+<p>
+	</p></div><div class="tab_content" id="tab3" style="display: none;"><p></p>
+<p>
+	<strong><big>まず質問を聞いてください。それから話を聞いて、１～４の中から最もよいものを一つ選んでください。</big></strong></p>
+<p>
+	<big><strong>1 番</strong></big></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_30.mp3" type="audio/mpeg"></audio></p>
+<p>
+	<a class="motaicho 720" href="./index.php_files/N2_Choukai_Chuong5Phan1_02.png"><img alt="" src="./index.php_files/N2_Choukai_Chuong5Phan1_02.png" style="width: 630px; height: 368px;"></a></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4</big></p>
+<p>
+	<big><strong>2 番</strong></big></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_31.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1　修正する</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2　ファックスする</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3　電話する</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4　拡大コピーする</big></p>
+<p>
+	<big><strong>3 番</strong></big></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_32.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1　明日</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2　月曜日</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3　土曜日</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4　祝日</big></p>
+<p>
+	<big><strong>4 番</strong></big></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_33.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1　あとで携帯から電話する</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2　このまま電話が終わるのを待つ</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3　会社に電話をかけてもらう</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4　携帯に電話がかかってくるのを待つ</big></p>
+<p>
+	</p><div class="slide"><div class="slide-title sl2"><span>&lt;&lt;&lt;&nbsp; Script&nbsp; &gt;&gt;&gt;</span></div><div class="slide-content sl2"><p></p>
+<p>
+	<big><strong>1 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> </big><big>2</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>女の人が銀行に来ています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người phụ nữ đang đến ngân hàng.</div></div></div><div class="tudich"><div class="candich"><strong><big>女の人は、どのボタンを押せばいですか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người phụ nữ sẽ ấn nút nào thì được?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女</big><big>: </big><big>すみません。</big><big>お金を下ろしたい（＊1）んですが…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Xin lỗi. Tôi muốn rút tiền...</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>係員: はい、それではまず、こちらのボタンを押してください。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vâng, trước hết chị vui lòng ấn nút ở đây.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>女の人は、どのボタンを押せばいですか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người phụ nữ sẽ ấn nút nào thì được?</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>2 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> </big><big>4</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>会社で、男の人と女の人が話しています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ở công ty, người đàn ông và người phụ nữ đang nói chuyện.</div></div></div><div class="tudich"><div class="candich"><strong><big>女の人は、このあとまず何をしますか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người phụ nữ sau đây trước tiên sẽ làm gì?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男 : これ、修正したから、本社の青木課長にファックスしといて。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Cái này tôi đã chỉnh sửa xong rồi, chị fax cho trưởng ban Aoki ở trụ sở chính nhé.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女</big><big>: はい。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vâng ạ.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男</big><big>: あとで、必ず確認の電話を入れるようにね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Chị bảo anh ấy nhất định điện thoại xác nhận lại nhé.</div></div></div><div class="tudich"><div class="candich"><big>あ、それ、ちょっと小さいから、拡大コピーしてからにしてね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">À, cái đó hơi nhỏ, chị phóng to rồi mới fax nhé.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: わかりました。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vâng ạ.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>女の人は、このあとまず何をしますか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người phụ nữ sau đây trước tiên sẽ làm gì?</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>3 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> </big><big>3</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>男の人と女の人が、図書館の案内版の前で話しています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người đàn ông và người phụ nữ đang nói chuyện trước bản hướng dẫn của thư viện.</div></div></div><div class="tudich"><div class="candich"><strong><big>男の人は、今度いつここへ来ますか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Lần tới người đàn ông sẽ đến đây vào lúc nào?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: あーあ、閉まってるよー。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">À, đóng cửa rồi.</div></div></div><div class="tudich"><div class="candich"><big>なんでー、 7時までだと思ったのになー。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Tại sao vậy? Mình nghĩ là mở cửa tới 7 giờ vậy mà...</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: あ、書いてある。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">À, có viết nè.</div></div></div><div class="tudich"><div class="candich"><big>今日は日曜だから、 5時までだったんだね、残念! </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Viết là vì hôm nay chủ nhật nên mở cửa đến 5 giờ thôi. Tiếc thật!</div></div></div><div class="tudich"><div class="candich"><big>平日なら7時まで開いてるよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ngày thường thì mở cửa đến 7 giờ.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: 7時ねえ。ちょっときついよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">7 giờ nhỉ. Hơi chật vật.</div></div></div><div class="tudich"><div class="candich"><big>バイト6時までだもん。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vì chỗ làm thêm đến 6 giờ thôi.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: あ、土曜日も平日と同じだ…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">À, thứ bảy cũng giống như ngày thường...</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: そっか、じゃ、土曜日だな。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vậy à? Thế thì thứ bảy nha.</div></div></div><div class="tudich"><div class="candich"><big>…あ! 明日バイト昼で終わりだ! </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">A! Ngày mai chỗ làm thêm đến trưa là xong rồi!</div></div></div><div class="tudich"><div class="candich"><big>明日来るよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Mai mình sẽ đến.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: よく見てよー。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Cậu nhìn kĩ nè.</div></div></div><div class="tudich"><div class="candich"><big>月曜日と祝日は、休館日</big><big>（＊2）</big><big>でしょ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Thứ hai và ngày lễ thì thư viện nghỉ.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: ほんとだ、じゃ、しかたない。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Đúng vậy. Vậy không còn cách nào khác.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>男の人は、今度いつここへ来ますか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Lần tới người đàn ông sẽ đến đây vào lúc nào?</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>4 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> </big><big>1</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>電話で、田中さんが取引先の人と話しています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Anh Tanaka đang nói chuyện với đối tác bằng điện thoại</div></div></div><div class="tudich"><div class="candich"><strong><big>田中さんはこのあとどうしますか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Anh Tanaka sau đây sẽ làm sao?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>田中: あ、もしもし、山岡物産の田中ですが…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">A lô, tôi là Tanaka ở công ty Yamaoka Bussan...</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: お世話になっております。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Cảm ơn anh đã giúp đỡ thời gian qua.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>田中: いえ、こちらこそ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Không, chính tôi mới là người nói câu ấy.</div></div></div><div class="tudich"><div class="candich"><big>林課長、いらっしゃいますか。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Trưởng ban Hayashi có ở đó không ạ?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: 林ですね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hayashi ạ?</div></div></div><div class="tudich"><div class="candich"><big>少々お待ちください。 </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Anh vui lòng đợi chút.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>田中: はい。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vâng.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>&nbsp;&nbsp;&nbsp; …</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">...</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: お待たせしてすみません。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Xin lỗi vì đã để anh đợi.</div></div></div><div class="tudich"><div class="candich"><big>ただ今、別の電話に出ておりますので、後ほど、こちらからお電話させていただきましょうか。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hiện tại anh ấy đang có nhận cuộc điện thoại khác, chúng tôi sẽ điện thoại lại sau nhé?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>田中: あ、いえ、えっと、これから、外に出ますんで、…携帯から、かけ直します。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">À, không, bây giờ tôi đi ra ngoài..., nên tôi sẽ dùng điện thoại di động để gọi lại.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: そうですか、申し訳ありません。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vậy ạ. Xin lỗi anh.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>田中さんはこのあとどうしますか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Anh Tanaka sau đây sẽ làm sao?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>（＊1）お金を下ろす：お金を引き出す</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">rút tiền</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>（＊2）</big><big>休館日：図書館が休みの日</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">ngày thư viện nghỉ</div></div></div><p></p>
+<p>
+	<span style="font-family: arial, helvetica, sans-serif; "></span></p></div></div><p></p>
+<p style="text-align: center;">
+	<span _fck_bookmark="1" style="display: none;">&nbsp;</span><span _fck_bookmark="1" style="display: none;">&nbsp;</span></p>
+<p style="text-align: center;">
+	<span _fck_bookmark="1" style="display: none;">&nbsp;</span><span _fck_bookmark="1" style="display: none;">&nbsp;</span></p>
+<p>
+	<span _fck_bookmark="1" style="display: none;">&nbsp;</span></p>
+<p style="text-align: center;">
+	<span _fck_bookmark="1" style="display: none;">&nbsp;</span></p>
+<p style="text-align: center;">
+	<span _fck_bookmark="1" style="display: none;">&nbsp;</span><span _fck_bookmark="1" style="display: none;">&nbsp;</span></p>
+<p style="text-align: center;">
+	<span _fck_bookmark="1" style="display: none;">&nbsp;</span><span _fck_bookmark="1" style="display: none;">&nbsp;</span></p>
+<p>
+	<span _fck_bookmark="1" style="display: none;">&nbsp;</span></p>
+<p>
+	</p></div><div class="tab_content" id="tab4" style="display: none;"><p></p>
+<p>
+	<big><strong>まず質問を聞いてください。そのあと、選択肢を読んでください。読む時間があります。それから話を聞いて、1～4 の中から、最もよいものを一つ選んでください。</strong></big></p>
+<p>
+	<strong><big>1 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_34.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1　親の店を継ぐから</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2　体力に自信がないから</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3　仕事が向いていないから</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4　会社に辞めさせられたから</big></p>
+<p>
+	<strong><big>2 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_35.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1　4 月4日の9時ごろ</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2　4 月4 日の1 時ごろ</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3　4 月 8日の9 時ごろ</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4　4月8 日の1 時ごろ</big></p>
+<p>
+	<strong><big>3 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_36.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1　若い女性が好きな人に泥をつける</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2　若い男性が田植えをする</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3　赤ちゃんを抱いて泥の中に入る</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4　おみこしを泥の中に投げ入れる</big></p>
+<p>
+	<strong><big>4 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_37.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1　新車ではないから</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2　自分の好みの車ではないから</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3　ローンが大変だから</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4　カーナビが付いていないから</big></p>
+<p>
+	<strong><big>5 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_38.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1　出かける場所</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2　題材の集め方</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3　かかる費用</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4　必用な材料</big></p>
+<p>
+	</p><div class="slide"><div class="slide-title sl2"><span>&lt;&lt;&lt;&nbsp; Script&nbsp; &gt;&gt;&gt;</span></div><div class="slide-content sl2"><p></p>
+<p>
+	<big><strong>1 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 4</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>男の人と女の人が、本田さんについて話しています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người đàn ông và người phụ nữ đang nói chuyện về anh Honda.</div></div></div><div class="tudich"><div class="candich"><strong><big>本田さんはどうして会社を辞めましたか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Tại sao anh Honda nghỉ làm ở công ty?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: 本田さんさ、表向きは、親の店を継ぐから辞めたってことになってるけど…実はリストラだって。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Anh Honda ấy, bề ngoài thì anh ấy bảo là do kế tục cửa hàng của cha mẹ nên nghỉ làm, nhưng nghe nói thực ra là bị giảm biên chế.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: え、そうなの? </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hả? Vậy hả.</div></div></div><div class="tudich"><div class="candich"><big>おかしいと思ってたのよね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Mình thấy kì kì.</div></div></div><div class="tudich"><div class="candich"><big>あんな、体力のいる仕事、自分には向いてないって、いつも言ってたから。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Bởi vì anh ấy lúc nào cũng bảo là mấy việc dùng đến sức lực như thế không thích hợp với anh ấy.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>本田さんは、どうして会社を辞めましたか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Tại sao anh Honda nghỉ làm ở công ty?</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>2 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 4</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>男の人と女の人が話しています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người đàn ông và người phụ nữ đang nói chuyện.</div></div></div><div class="tudich"><div class="candich"><strong><big>工事はいつになりましたか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Công sự diễn ra khi nào?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: 手続きは終りました。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Thủ tục đã xong rồi.</div></div></div><div class="tudich"><div class="candich"><big>それで、工事に伺う日ですが、今、混んでいまして、早くても4月の8日になりますが…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Về ngày chúng tôi đến để tiến hành làm, bây giờ đang đông, nên sớm cũng là ngày 8 tháng 4.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: 4日っていうと、土曜日ですね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ngày 4 là thứ bảy.</div></div></div><div class="tudich"><div class="candich"><big>土曜日はちょっと.. 。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Thứ bảy thì...</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: いえ、 4日じゃなくて、 8日です。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Dạ không phải ngày 4 mà là ngày 8.</div></div></div><div class="tudich"><div class="candich"><big>水曜日です。 </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Thứ tư ạ.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: あ、それなら大丈夫です。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">À, nếu vậy thì được.</div></div></div><div class="tudich"><div class="candich"><big>何時ごろになりますか。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Khoảng mấy giờ thế?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: 時間はちょっとわからないんですよねー。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Thời gian thì không được rõ.</div></div></div><div class="tudich"><div class="candich"><big>何軒 も回りますので。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vì chúng tôi đi vòng mấy nhà lận.</div></div></div><div class="tudich"><div class="candich"><big>午前中か午後か、その一番早くか、一番遅くというふうにしか、決められないんです。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Buổi sáng hay buổi chiều, sớm nhất hay muộn nhất, cái đó tôi không quyết định được.</div></div></div><div class="tudich"><div class="candich"><big>朝一で9時ごろ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Buổi sáng sớm nhất cũng khoảng 9 giờ.</div></div></div><div class="tudich"><div class="candich"><big>午後一で1時ごろ、遅いと5時ごろになるかもしれません。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Buổi chiều sớm nhất cũng khoảng 1 giờ, trễ thì có thể khoảng 5 giờ.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: じゃ、午後一でお願いします。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vậy thì anh đến sớm nhất buổi chiều đi.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>工事はいつになりましたか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Công sự diễn ra khi nào?</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>3 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 1</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>テレビで、男の人が泥祭りのレポートをしています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người đàn ông đang tường thuật về lễ hội bùn trên ti vi.</div></div></div><div class="tudich"><div class="candich"><strong><big>山中村の泥祭りの特徴は、どういう点だと言っていますか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Đặc trưng của lễ hội bùn ở làng Yamanaka là điểm nào?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: 皆さん、私は今、ここ山中村の泥祭りにお邪魔しています。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Chào mọi người, hiện tại tôi đang ở lễ hội bùn tại làng Yamanaka.</div></div></div><div class="tudich"><div class="candich"><big>泥祭りは、全国各地にあって、もともとは豊作を祈願して田植えをし、そのあとで、皆の健康を願って、互いに泥を顔や体に付け合うというものが、一般的だと思います。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Lễ hội bùn vốn dĩ là việc cấy lúa với nguyện cầu mùa màng bội thu ở mỗi địa phương trên khắp cả nước, sau đó phổ biến thành việc trét bùn lên cơ thể, mặt mũi của nhau với nguyện cầu mọi người được khỏe mạnh.</div></div></div><div class="tudich"><div class="candich"><big>若い男性が田んぼの泥の中に入ったり、赤ちゃんを抱いて入ったり、おみこしを泥の中に投げ入れるところもあるようですが…</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Cũng có nơi các thanh niên trai tráng lao vào trong đống bùn của ruộng nương, hay ôm em bé lao vào bùn, hay ném kiệu mikoshi vào trong đống bùn.</div></div></div><div class="tudich"><div class="candich"><big>ご覧ください、こちら山中村では、着物姿の若い娘さんたちが、泥の中に入って、田植えをしています。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Quý vị xem này, tại làng Yamanaka nơi đây, các cô gái trẻ trong trang phục Kimono đang lao vào bùn để cấy lúa.</div></div></div><div class="tudich"><div class="candich"><big>そして、田植えが終わると、娘さんたちは、好きな人に泥をつけるのです! </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hơn nữa, sau khi cấy lúa xong, các cô gái này sẽ trét bùn vào người mà mình thích!</div></div></div><div class="tudich"><div class="candich"><big>もちろん、家族でも友達でも。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Dĩ nhiên, trét vào người trong gia đình cũng được, bạn bè cũng được.</div></div></div><div class="tudich"><div class="candich"><big>そして、好きな男性でも!</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Và ngay cả với người đàn ông mình thích.</div></div></div><div class="tudich"><div class="candich"><big> いいですねー、私もつけられたいですねー。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Tuyệt nhỉ, tôi cũng muốn bị trét bùn.</div></div></div><div class="tudich"><div class="candich"><big>あ、田植えが終わったようです</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">À, hình như việc cấy lúa đã xong rồi.</div></div></div><div class="tudich"><div class="candich"><big>…あ…わーっ、あはは…… わっ、私も塗ってもらいました! </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">A, ui, a... tôi cũng bị trét rồi!</div></div></div><div class="tudich"><div class="candich"><big>今年一年、元気で過ごせそうです! </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vẻ như cả năm nay tôi sẽ được khỏe mạnh.</div></div></div><div class="tudich"><div class="candich"><big>ありがとうございました。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Xin cảm ơn.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>山中村の泥祭りの特徴は、どういう点だと言っていますか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Đặc trưng của lễ hội bùn ở làng Yamanaka là điểm nào?</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>4 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 2</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>男の人と女の人が話しています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người đàn ông và người phụ nữ đang nói chuyện.</div></div></div><div class="tudich"><div class="candich"><strong><big>男の人は、どうしてうれしくないのですか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Tại sao người đàn ông không được vui?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: あ、新車ですか。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">A, xe mới hả?</div></div></div><div class="tudich"><div class="candich"><big>高かったでしょう。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Chắc là mắc lắm đây.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: いや、安かったんですよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Không, rẻ thôi mà.</div></div></div><div class="tudich"><div class="candich"><big>エアコンもナビもついてて、買い得だったんです。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Máy điều hòa cũng có gắn hệ thống định vị, đúng thật là món hời.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: じゃあ、よかったですねえ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vậy thì tốt quá nhỉ.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: ええ、まあ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ừm, cũng tạm.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: 今度のは、ドアは4つあって、後ろの人も、楽に乗り降りできますね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Chiếc xe lần này có 4 cửa, nên người ở phía sau có thể lên xuống một cách dễ dàng.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: そう</big><big>…</big><big> ですかねえ…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vậy... à...</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: あのう、なんか、あまりうれしくないみたいですけど、どうかしたんですか。 </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Này, hình như cậu có chuyện gì đó không được vui, cậu có chuyện gì hả?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: ああ、すみません。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">À, xin lỗi.</div></div></div><div class="tudich"><div class="candich"><big>これ、母の好みで、ぼくの好みじゃないんですよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Đây là ý thích của mẹ mình, không phải cái mình thích.</div></div></div><div class="tudich"><div class="candich"><big>車のローンって、高いじゃないですか。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Cậu biết đó, vay tiền mua xe rất mắc.</div></div></div><div class="tudich"><div class="candich"><big>それで、母にお金借りることにしたんですけど、そしたら、これにしろって…無理矢理</big><big>…</big><big> 。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Bởi thế mình quyết định mượn tiền của mẹ mình và thế là mình bị ép... rằng "con chọn cái này đi."</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>男の人は、どうしてうれしくないのですか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Tại sao người đàn ông không được vui?</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>5 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 2</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>男の人と女の人が、趣味について話しています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người đàn ông và người phụ nữ đang nói chuyện về sở thích.</div></div></div><div class="tudich"><div class="candich"><strong><big> 2人の趣味の共通点は、何だと言っていますか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Điểm chung về sở thích của hai người là gì?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: 油絵ですか、いいご趣味ですね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Tranh sơn dầu à? Sở thích hay nhỉ.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: 絵の具で色をつけるのもおもしろいんですが、その前にスケッチをするんで、いい景色を探して、あちこち歩き回るんですけどね、それが楽しくてねえ…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Việc pha màu bằng màu vẽ cũng thú vị, trước đó mình sẽ phác họa, nên đi vòng quanh đây đó tìm phong cảnh đẹp, cái đó cũng rất thú vị...</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: あら、同じですよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ủa, giống mình quá.</div></div></div><div class="tudich"><div class="candich"><big>趣味は俳句です、って言うと、家の中で、じっと座って考えていると思われるんですけど、私は年中出歩いて、題材を集めているんです。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Sở thích của mình là thơ haiku, nói đến haiku thì người ta nghĩ là mình sẽ ở trong nhà, ngồi bất động suy nghĩ, nhưng cả năm mình đi ra ngoài để thu thập đề tài đấy thôi.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: 運動にもなっていいですよね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Có vận động cũng tốt nhỉ.</div></div></div><div class="tudich"><div class="candich"><big>ただ、油絵はお金がかかるんですよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nhưng tranh sơn dầu thì lại tốn tiền.</div></div></div><div class="tudich"><div class="candich"><big>絵の具にキャンバスに</big><big>…</big><big>。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nào là màu vẽ, nào là vạt để vẽ...</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: あ、そうですかー。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">À, vậy hả?</div></div></div><div class="tudich"><div class="candich"><big>その点、俳句はいいですよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Điểm đó thì thơ haiku được hơn.</div></div></div><div class="tudich"><div class="candich"><big>紙と鉛筆があればできますから。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Chỉ cần có giấy và bút chì là có thể sáng tác được rồi.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>2人の趣味の共通点は、何だと言っていますか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Điểm chung về sở thích của hai người là gì?</div></div></div><p></p>
+<p>
+	<span style="font-family: arial, helvetica, sans-serif; "></span></p></div></div><p></p>
+<p>
+	</p></div><div class="tab_content" id="tab5" style="display: none;"><p></p>
+<p>
+	<big><strong>この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから質問と選択肢を聞いて、1～4の中から、最もよいものを一つ選んでください。</strong></big></p>
+<p>
+	<strong><big>1 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_39.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4</big></p>
+<p>
+	<strong><big>2 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_40.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4</big></p>
+<p>
+	<strong><big>3 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_41.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4</big></p>
+<p>
+	<strong><big>4 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_42.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4</big></p>
+<p>
+	</p><div class="slide"><div class="slide-title sl2"><span>&lt;&lt;&lt;&nbsp; Script&nbsp; &gt;&gt;&gt;</span></div><div class="slide-content sl2"><p></p>
+<p>
+	<big><strong>1 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 4</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>女の人と男の人が、パンフレットを見ながら話しています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người phụ nữ và người đàn ông vừa xem sách hướng dẫn vừa nói chuyện.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: 車イスで参加できるツアーがあるんだって。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nghe nói có tua du lịch mà người đi xe lăn vẫn có thể tham gia nữa đấy.</div></div></div><div class="tudich"><div class="candich"><big>これ、見て。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Anh xem cái này nè.</div></div></div><div class="tudich"><div class="candich"><big>お母さん、連れて行ってあげようかな。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hay là mẹ nó dẫn mình đi ha.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: ふーん、『体が不自由な人でも、安心して海外旅行を楽しめあます』かあ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hmm, "người khuyết tật vẫn có thể an tâm tận hưởng những chuyến du lịch nước ngoài" à.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: うん、付き添いの同伴や折りたたみ式の車イスの用意なんかが参加の条件なんだけど、旅行会社からも、お世話をしてくれる添乗員が、特別に同行するんだって。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Dạ, điều kiện tham gia là chuẩn bị xe lăn loại có thể gấp lại được hoặc có người hộ tống đi cùng, nghe nói là hướng dẫn viên du lịch của bên công ty du lịch cũng đồng hành theo mình nữa..</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: へえー、そう。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hả? Thế sao.</div></div></div><div class="tudich"><div class="candich"><big>それにしても高いよね、このツアー。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Dù sao đi nữa thì chuyến du lịch này cũng đắt mà em.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女</big><big>:</big><big>そうかなあ…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vậy hả?</div></div></div><div class="tudich"><div class="candich"><big>介護人が付くことや乗り物のことを考えたら、この値段、そんなに悪くないんじゃない? </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Anh nghĩ xem, có người chăm sóc đi cùng, rồi phương tiện đi lại nữa, giá này chẳng phải tốt quá sao?</div></div></div><div class="tudich"><div class="candich"><big>ホテルだって、どこも高級だし、こんな有名なレストラン、普通じゃ行けないよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Khách sạn thì chỗ nào cũng sang trọng cả, nhà hàng nổi tiếng như vầy, bình thường không thể đi được đâu.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>女の人は、この海外ツアーをどう思っていますか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người phụ nữ nghĩ sao về tua du lịch nước ngoài này?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>1　参加する条件が厳しい</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Điều kiện tham gia khắt khe</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>2　いいと思うが、料金が高すぎる</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Thấy tốt nhưng chi phí quá đắt</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>3　付き添いがいらないからいい</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vì không cần người hộ tống nên rất được</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>4　いい内容なので、高いのはしかたがない</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vi nội dung hay, nên đắt cũng chịu được.</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>2 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 1</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>スポーツクラブで、男の人と女の人が話しています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người đàn ông và người phụ nữ đang nói chuyện ở câu lạc bộ thể thao.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男 : あれ、珍しいね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ủa, lạ à nha.</div></div></div><div class="tudich"><div class="candich"><big>最近、全然来てなかったよね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Dạo này chẳng thấy cậu đến.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: うん、来るひまなくて…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ừ, mình không có thời gian để đến...</div></div></div><div class="tudich"><div class="candich"><big>やっと来られたけど… また、いつ来られるか…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Cuối cùng thì mình cũng có thể đến được rồi... chẳng biết khi nào mới có thể đến nữa?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: 会費だけ払ってるって感じ?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Cảm giác đóng tiền hội phí thôi sao?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: そうなのよー。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Đúng vậy.</div></div></div><div class="tudich"><div class="candich"><big>もったいないからさー、さっき、相談してきたの。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vì lãng phí, lúc nãy mình đã bàn bạc rồi.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: しばらく休むとか?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hay là cậu nghỉ ngơi một thời gian?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: そうそ、休みたいって言ったんだけど、そういう制度はないんだって。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ờ ờ, mình nói là mình muốn nghỉ, nhưng nghe nói là không có chế độ đó.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: あーそっか、じゃあ、フレックス会員っていうのにすればいいんじゃないの? </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">À, vậy hả? Vậy cậu nên đăng kí hội viên linh động.</div></div></div><div class="tudich"><div class="candich"><big>月4 回、いつ来てもいいし、使わなかったら、次の月に回せるんだって。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Mỗi tháng 4 lần, khi nào đến cũng được, nếu không sử dụng thì có thể chuyển sang tháng sau.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: 私、今、それなの。 </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hiện tại mình đang xài cái đó đó.</div></div></div><div class="tudich"><div class="candich"><big>3 か月前にそれに変えたから、まあ安くはなったんだけどね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vì ba tháng trước mình đã đổi sang cái đó rồi, không rẻ đâu.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: そうなんだー。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vậy à.</div></div></div><div class="tudich"><div class="candich"><big>じゃ、退会して、また来られるようになったら入会するとか?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vậy thì rút tên ra đi, chừng nào có thể đến được nữa thì gia nhập lại, cậu thấy sao?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: それだとたぶん、私、もう来なくなるから…がんばってみる!</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Có lẽ mình sẽ không thể đến được nữa... mình sẽ cố gắng thử!</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>女の人は、どうするつもりですか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người phụ nữ dự định sẽ làm gì?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>1　このままにする</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Để nguyên như vậy</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>2　休会する</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nghỉ hội</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>3　退会する</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Rút tên khỏi hội</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>4　フレックス会員になる</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Làm hội viên linh động</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>3 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 1</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>女の人が、ガンについて話しています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người phụ nữ đang nói chuyện về bệnh ung thư.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: 昔、ガンになったらイコール（=）死んでしまう、というイメージが強かったので、本人にその病名を知らせないことも多かったようですが、今は、 90% 以上の人が、自分の本当の病名を知りたいと思っているそうですね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ngày xưa, bị ưng thư đồng nghĩa với chết, hình ảnh đó sâu đậm nên nhiều khi cũng không thông báo căn bệnh đó với người đó, nhưng bây giờ thì hơn 90% người muốn biết tên căn bệnh thật sự của mình.</div></div></div><div class="tudich"><div class="candich"><big>私も、本当の病名だけでなく、あとどれくらい生きられるのかということも知りたいです。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Tôi chẳng những muốn biết tên căn bệnh thật sự mình mắc phải mà còn muốn biết mình còn có thể sống bao lâu nữa.</div></div></div><div class="tudich"><div class="candich"><big>もし、あと半年しか生きられないとしたら、残された日々を無駄にしないようにしたいです。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nếu như tôi chỉ còn sống được nửa năm thôi, thì tôi muốn mình không lãng phí những tháng ngày còn lại.</div></div></div><div class="tudich"><div class="candich"><big>でも、家族がガンになったら、本当のことを伝えたほうがいいのかどうか、よくわかりません。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nhưng khi người nhà của mình mắc bệnh ung thư, thì tôi không biết rằng mình có nên nói ra sự thật hay không.</div></div></div><div class="tudich"><div class="candich"><big>私の母のような性格の人には、本当のことを伝えないほうがいいのかもしれません。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Với một người có tính cách như mẹ của tôi thì chắc có lẽ tôi không nên nói sự thật.</div></div></div><div class="tudich"><div class="candich"><big>もし、自分がガンであるということを知ったら、母は、ショックで何もできなくなってしまうと思います。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nếu biết mình bị ung thư, tôi nghĩ mẹ tôi sẽ sốc và không thể làm gì được.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>女の人は、ガンについてどう思っていますか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người phụ nữ nghĩ như thế nào về bệnh ung thư?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>1　自分がガンになったら、本当の病名を知りたい</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nếu mình bị ung thư, thì muốn biết căn bệnh thật sự</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>2　自分がガンになったら、ショックで何もできなくなる</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nếu mình bị ung thư, thì bị sốc không thể làm gi được</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>3　家族がガンになったら、毎日を無駄にしないで生きてほしい</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nếu người thân trong gia đình bị ung thư, thì muốn người thân sống đừng lãng phí thời gian mỗi ngày</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>4　家族がガンになったら、本当のことを伝える</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nếu người thân trong gia đình bị ung thư, thì muốn nói ra sự thật</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>4 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 3</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>女の子とお父さんが、鳥について話しています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Đứa bé gái và người cha đang nói chuyện về chú chim.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女の子: わー、お父さん、見て見て! </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ôi, ba ơi, ba xem nè.</div></div></div><div class="tudich"><div class="candich"><big>あそこー! すごいねー! </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Kia kìa! Tuyệt ghê ha ba!</div></div></div><div class="tudich"><div class="candich"><big>音符みたいだよー!</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Giống như nốt nhạc vậy.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>父親: はははは、電線に鳥がたくさん止まってるね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Haha, nhiều chú chim đậu trên dây điện ghê.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女の子 : 朝も来るんだよー。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Sáng chúng cũng sẽ đến nữa.</div></div></div><div class="tudich"><div class="candich"><big>昼もお庭の木に来てたよ。… あれ? </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Buổi trưa chúng đậu trên cây trong vườn. Ủa?</div></div></div><div class="tudich"><div class="candich"><big>夜は ….夜はどこで寝るの?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Buổi tối... tối nó ngủ ở đâu vậy ba?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>父親: どこだろうねー。どこだと思う?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ở đâu à? Vậy con nghĩ nó ngủ ở đâu?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女の子: ネコさんの来ないと</big><big>こ</big><big>?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ở chỗ không có con mèo hả ba?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>父親: そうそう、夜起きてるネコさんやフクロウさん、タヌキさんに見つからないような</big><big>と</big><big>こだね、きっと。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Đúng vậy, chắc chắn đó phải là nơi những con vật thức đêm như con lửng, con cú, con mèo không phát hiện được.</div></div></div><div class="tudich"><div class="candich"><big>見つかったら、捕まっちゃうからね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Bởi vì nếu chúng phát hiện, chúng sẽ tóm lấy.</div></div></div><div class="tudich"><div class="candich"><big>それに、強い風が当たらないとこかな。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ngoài ra, đó còn là nơi không có gió mạnh nữa.</div></div></div><div class="tudich"><div class="candich"><big>風が当たると、体が冷えて、寝られない</big><big>からねー。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Bởi vì nếu có gió, cơ thể chúng sẽ bị lạnh, chúng không thể ngủ được.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>お父さんは女の子に、鳥の何について説明していますか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người cha giải thích về điều gì của chú chim cho đứa bé gái nghe?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>1　見つけ方について</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Về cách tìm kiếm</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>2　病気について</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Về bệnh của nó</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>3　寝る場所について</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Về nơi chúng ngủ</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>4　えさの探し方について</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Về cách tìm mồi</div></div></div><p></p>
+<p>
+	<span style="font-family: arial, helvetica, sans-serif; "></span></p></div></div><p></p>
+<p>
+	</p></div><div class="tab_content" id="tab6" style="display: none;"><p></p>
+<p>
+	<big><strong>まず文を聞いてください。それからその返事を聞いて、１～３から最もよいものを一つ選んでください。</strong></big></p>
+<p>
+	<strong><big>1 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_43.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3</big></p>
+<p>
+	<strong><big>2 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_44.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3</big></p>
+<p>
+	<strong><big>3 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_45.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3</big></p>
+<p>
+	<strong><big>4 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_46.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3</big></p>
+<p>
+	<strong><big>5 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_47.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3</big></p>
+<p>
+	<strong><big>6 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_48.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3</big></p>
+<p>
+	<strong><big>7 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_B_49.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3</big></p>
+<p>
+	</p><div class="slide"><div class="slide-title sl2"><span>&lt;&lt;&lt;&nbsp; Script&nbsp; &gt;&gt;&gt;</span></div><div class="slide-content sl2"><p></p>
+<p>
+	<big><strong>1 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 3</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>今度の日曜日、忙しいって言ってたよね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Cậu nói là chủ nhật này cậu bận phải không.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>1　ああ、なんとかやってる。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">À, mình đang xoay sở để làm.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>2　いや、ひまでしかたなかったよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Không, rảnh quá chừng luôn.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>3　うん、予定がぎっしり。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ừ, lịch kín mít hết cả.</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>2 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 1</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>あのう、ちょっと聞き取りにくいんですが…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Dạ, hơi khó nghe...</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>1　あ、そうですか、すみません。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">À, vậy hả? Xin lỗi.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>2　えーっと、これくらいじゃありませんか。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Không phải cỡ này hả?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>3　そんなはずじゃなかったんですが…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Lẽ nào lại có chuyện đó...</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>3 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 2</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>会場がわかんなくて、うろうろしちゃったよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vì không biết hội trường ở đâu nên tôi đi lòng vòng hoài.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>1　うっかりしてたよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Lơ đễnh đấy.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>2　でも、よかったじゃない、間に合って。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nhưng chẳng phải còn may sao, vừa kịp lúc.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>3　だれかに聞いてみる?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Cậu thử hỏi ai đó xem sao?</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>4 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 3</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>こんなこと、よくやったよね、えらい!</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Chuyện như thế này cậu làm rất tốt. Giỏi ghê!</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>1　やってみるだけだよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Tôi chỉ làm thử thôi.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>2　大したことになったよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Chẳng có gì to tát đâu.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>3　いや、それほどでもないよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Không, cũng đâu đến mức như thế.</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>5 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 1</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>ご用件、お伺いしておきましょうか。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Chị có việc gì nhờ tôi làm không?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>1　いえ、また出直しますので.. 。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Thôi, tôi sẽ đến nữa mà...</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>2　えー、けっこうだと思います。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hả? Tôi nghĩ được rồi.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>3　そうですね。お先に失礼します。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ừ nhỉ. Tôi xin phép đi trước.</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>6 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 3</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>最近、加藤君見かけないよね。具合でも悪いのかな。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Dạo này không thấy anh Kato đâu cả. Không biết anh ấy có khỏe không.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>1　会ったことないからわかんないよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Mình chưa từng gặp nên cũng không rõ nữa.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>2　都合悪いって言ってたから。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vì anh ấy bảo rằng không tiện cho ảnh.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>3　旅行にでも行ってんじゃない?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Mình nghĩ anh ấy đi du lịch hay đâu đó rồi.</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>7 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 1</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>これ、細かくしてくれない? この自動販売機、お札は使えないみたい。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Cậu đổi nhiêu đây sang tiền lẻ giúp mình nhé? Cái máy bán hàng tự động này hình như không xài tiền giấy.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>1　五百円玉、混じってもいい?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Xen lẫn đồng 500 yen được không?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>2　じゃ、千円にしようよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vậy đổi sang 1000 yen đi.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>3　不便なんじゃない?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Bất tiện ghê.</div></div></div><p></p>
+<p>
+	<span style="font-family: arial, helvetica, sans-serif; "></span></p></div></div><p></p>
+<p>
+	</p></div><div class="tab_content" id="tab7" style="display: none;"><p></p>
+<p>
+	<big><strong>長めの話を聞きます。メモをとってもかまいません。</strong></big></p>
+<p>
+	<big><strong>1 番、2 番は、まず話を聞いてください。それから質問と選択肢を聞いて、1～4の中から、最もよいものを一つ選んでください。</strong></big></p>
+<p>
+	<strong><big>1 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_A_50.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4</big></p>
+<p>
+	<strong><big>2 番</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_A_51.mp3" type="audio/mpeg"></audio></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4</big></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong><big>3 番は、まず話を聞いてください。それから二つの質問を聞いて、それぞれ1～4の中から、最もよいものを一つ選んでください。</big></strong></p>
+<p>
+	<audio controls="" preload="none"><source src="Audio/FD6/N2_Soma_Chokai_A_52.mp3" type="audio/mpeg"></audio></p>
+<p>
+	<strong><big>質問1</big></strong></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1　Aタイプ</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2　</big><big>B</big><big>タイプ</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3　C</big><big>タイプ</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4　D</big><big>タイプ</big></p>
+<p>
+	<strong><big>質問2</big></strong></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>1　A</big><big>タイプ</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>2　</big><big>B</big><big>タイプ</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>3　C</big><big>タイプ</big></p>
+<p style="margin-left: 40px;">
+	<span class="dienchotrong kochan"><input type="text" class="dapan" value="Sai" disabled="disabled"><input type="text" class="otrong"><input type="button" class="accpt" value=""></span><big>4　D</big><big>タイプ</big></p>
+<p>
+	</p><div class="slide"><div class="slide-title sl2"><span>&lt;&lt;&lt;&nbsp; Script&nbsp; &gt;&gt;&gt;</span></div><div class="slide-content sl2"><p></p>
+<p>
+	<big><strong>1 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 1</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>掃除機の売り場で、女の人と販売員が話しています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Tại nơi bán máy hút bụi, người phụ nữ và nhân viên bán hàng đang nói chuyện.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: あのー、この1番と2 番の違いって、何ですか。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Anh cho hỏi điểm khác nhau giữa cái thứ nhất và cái thứ hai là gì?</div></div></div><div class="tudich"><div class="candich"><big>見たところ、まったく同じに見えるんですけど… 。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vì sau khi xem thì tôi thấy nó hoàn toàn giống nhau cả mà...</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: それはですね、パワーが違いまして、 1 番のほうが吸い込みが強いんです。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Dạ cái đó thì, khác nhau về công suất ạ, cái máy thứ nhất thì hút mạnh hơn ạ.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: あー、それで値段が高いのね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">À, hèn gì mà giá đắt hơn.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: はい、そういうことです。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vâng, đúng vậy ạ.</div></div></div><div class="tudich"><div class="candich"><big>まあ、こちらの2 番のものでも、普通のご家庭なら十分ですが、カーペットの多いお宅や、ペットを飼われているお宅には、やはり、こちらのほうをお勧めしています。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Cái máy thứ hai thì nếu là gia đình bình thường thì đủ, nhưng nếu nhà có nuôi thú cưng hay nhà có nhiều tấm thảm thì tôi khuyên quý khách dùng cái này.</div></div></div><div class="tudich"><div class="candich"><big>紙パックを使用しないので、経済的ですよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vì không sử dựng bao giấy nên rất tiết kiệm ạ.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: えーっと、こっちのは、紙</big><big>パック</big><big>を使うんですよね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hmm, cái máy này dùng túi giấy mà phải không.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: はい、この3番と4 番は、紙パックタイプでして、こちらも3 番のほうがパワーが強いタイプです。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Dạ, máy thứ 3 và thứ 4 này cũng dùng túi giấy, và máy thứ 3 có công suất mạnh hơn.</div></div></div><div class="tudich"><div class="candich"><big>紙パックタイプは、ゴミ捨てが楽なのと、やはりお求めやすいお値段（＊）なので、人気がありますよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Loại máy dùng túi giấy thì việc vứt rác sẽ dễ dàng và giá cũng không đắt cho lắm, nên rất được ưa chuộng.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: そう… うーん、ゴミ捨てが楽っていうのは魅力があるんだけど、うちは、カーペットにくっついたネコの毛に困っているからねえ…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vậy hả... Ừ...m, tôi thích loại nào vứt rác dễ dàng, nhưng nhà tôi rất khổ sở với lông mèo dính vào mấy tấm thảm, nên...</div></div></div><div class="tudich"><div class="candich"><big>やっぱり、お勧めのこれにするわ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vậy tôi sẽ chọn cái này, cái anh gợi ý.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>女の人は、どの掃除機を買うことにしましたか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người phụ nữ đã chọn mua máy hút bụi nào?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>1　1番の掃除機</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Máy hút bụi thứ nhất</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>2　2番の掃除機</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Máy hút bụi thứ hai</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>3　3番の掃除機</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Máy hút bụi thứ ba</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>4　4番の掃除機</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Máy hút bụi thứ tư</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>（＊）お求めやすい値段：この場合「あまり高くない」という意味。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">trường hợp này nghĩa là "không đắt lắm"</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>2 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> 2</big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>会社員3人が、同僚の結婚祝いについて話しています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">3 nhân viên đang nói chuyện về quà mừng cưới cho đồng nghiệp.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女1: ねえ、原田さんのお祝いのことだけど…</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Về quà mừng cho chị Harada...</div></div></div><div class="tudich"><div class="candich"><big>何がいいと思う?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Cậu thấy cái nào được?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: 本人に、何がほしいか聞けばいいんじゃない?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Mình nghĩ nên hỏi đích thân chị ấy muốn gì thì được hơn.</div></div></div><div class="tudich"><div class="candich"><big> 外国では、ほしいもののリストを作って、プレゼントする側は、その中から予算に応じたものを選ぶらしいよ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Mình nghe nói ở nước ngoài, người tặng quà sẽ liệt kê danh sách những thứ mình muốn, sau đó sẽ chọn trong số đó cái nào phù hợp với túi tiền của mình.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女2: 合理的でいいと思うけど、日本はそんな習慣ないし… </big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Mình nghĩ cái đó cũng có lý, nhưng ở Nhật không có tập quán như vậy...</div></div></div><div class="tudich"><div class="candich"><big>本人に直接聞くっていうのもねえ…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hỏi trực tiếp chị ấy cũng...</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女1: カタログギフトにする?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hay mình làm danh mục quà tặng?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: カタログギフトって、何?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Danh mục quà tặng là gì?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女1: カタログを送って、その中から好きなのを選んでもらうっていうもの。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Mình sẽ gửi danh mục quà tặng, sau đó nói chị ấy chọn cái nào chị ấy thích trong đó.</div></div></div><div class="tudich"><div class="candich"><big>簡単でいいと思わない?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Mình thấy vừa đơn giản vừa hay nữa?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: ああ、あれか。何かでもらったこと、あるある。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">À, cái đó hả? Sẽ có những cái chị ấy đã nhận rồi.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女2: でも、あれって、たくさん載ってるけど、実際にほしいと思うものなんてほとんどないんじゃない?</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nhưng mà cái đó mình viết nhiều thứ vào mà, chẳng lẽ hầu như không có cái nào chị ấy thực sự thích sao?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: そうそう。いらないものばっかりだった。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Đúng vậy. Chỉ toàn những thứ chị ấy không cần.</div></div></div><div class="tudich"><div class="candich"><big>やっぱり、本人に聞いたほうが…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Rốt cục mình thấy hỏi đích danh chị ấy thì được hơn...</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女1: そうね、… こっちで選んだものでも、価値観や趣味の違いで、うれしくないこともあるものね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ừm... dẫu là chị ấy chọn cái trong danh sách thì cũng có khi chị ấy cũng không được vui, do khác nhau về giá trị quan và sở thích nữa.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女2: じゃ、私、彼女に聞いてみる。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vậy mình sẽ hỏi thử chị ấy.</div></div></div><div class="tudich"><div class="candich"><big>それから、みんなで買いに行きましょう。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Sau đó mọi người cùng nhau đi mua nha.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: 決まったね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Quyết định vậy đi.</div></div></div><div class="tudich"><div class="candich"><big>あ、ぼくのときは、現金でお願い。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">À, chừng nào mình đám cưới, mọi người đi tiền mặt nha.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女1 2 : えー。アハハ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hả?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>3人は、結婚祝いをどうすることに決めましたか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">3 người quyết định sẽ làm gì cho quà mừng cưới?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>1　原田さんにリストを作ってもらう</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nhờ chị Harada làm danh sách</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>2　原田さんにほしいものを聞く</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hỏi chị Harada thứ chị ấy thích</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>3　カタログギフトにする</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Làm danh mục quà tặng</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>4　みんなで選んだものにする</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Chọn thứ mọi người đã chọn</div></div></div><p></p>
+<p>
+	&nbsp;</p>
+<p>
+	<big><strong>3 </strong><strong>番</strong></big></p>
+<p>
+	<big><span style="font-family:arial,helvetica,sans-serif;">Đáp án:</span></big><big> </big></p>
+<p>
+	<big>質問1: 3； 質問2: 1 </big></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>女の人が学生会館の部屋の説明をしています。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Người phụ nữ đang giải thích về căn phòng trong hội quán sinh viên.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女</big><big>: </big><big>お部屋は4 つのタイプがあり、広さはどれもほとんど同じです。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Có 4 loại phòng, phòng nào cũng có độ rộng tương đương nhau.</div></div></div><div class="tudich"><div class="candich"><big>ベッド、机といす、本棚、クローゼットは、全てのお部屋に付いています。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Tất cả các phòng đều có giường, bàn ghế, kệ sách, và tủ chứa đồ.</div></div></div><div class="tudich"><div class="candich"><big>A タイプは、基本の家具だけですが、その分、お部屋が広く使えます。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Phòng loại A chỉ có đồ gia dụng cơ bản, nên các em có thể rộng rãi sử dụng phòng.</div></div></div><div class="tudich"><div class="candich"><big>Bタイプは、基本の家具の他に、洗面化粧台が付いています。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Phòng loại B thì ngoài các đồ gia dụng cơ bản, còn có gắn bồn rửa mặt và trang điểm.</div></div></div><div class="tudich"><div class="candich"><big>C タイプは、ユニットバスが付いていて、自分専用のお風呂とトイレがほしい方に。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Phòng loại C có nhà tắm riêng, thích hợp với những ai muốn có bồn tắm và toilet dùng riêng.</div></div></div><div class="tudich"><div class="candich"><big>D タイプは、ユニットバスとミニキ</big><big>ッ</big><big>チンが付いています。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Phòng loại D có nhà tắm riêng và nhà bếp mini.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: ラーメンを作ったりするのに、ミニキッチンが付いていると便利だよね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Phòng có nhà bếp mini để làm mì ramen tiện lợi nhỉ.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: そりゃそうだけど、そのタイプだと、 1 か月の費用がかなりになるよね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Đúng là vậy, nhưng mình nghĩ loại đó sẽ tốn khá nhiều chi phí cho mỗi tháng.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: うーん、やっぱりお茶とか飲みたいし…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ừ...m, mình muốn uống trà hay gì đó...</div></div></div><div class="tudich"><div class="candich"><big>でも、お茶とかカップラーメンくらいだったら、ミニキ</big><big>ッ</big><big>チンがなくてもいいよねえ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nhưng nếu pha trà hay nấu mì ly thì cũng không cần đến nhà bếp mini đâu.</div></div></div><div class="tudich"><div class="candich"><big>うーん、どうしようかなあ。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Hmmm, làm sao ta.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>女: うらやましい…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Ghen tị quá...</div></div></div><div class="tudich"><div class="candich"><big>ミニキ</big><big>ッ</big><big>チン付きかどうかで悩んでいるんだね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Đang lo không biết có nhà bếp mini hay không nhỉ.</div></div></div><div class="tudich"><div class="candich"><big>私は、本当は洗面台が付いているのにしたいけど、基本のタイプしか選べない。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Thật sự mình muốn phòng có bồn rửa mặt, nhưng chỉ có thể chọn loại cơ bản thôi.</div></div></div><div class="tudich"><div class="candich"><big>親にこれ以上苦労をかけられないもん。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vì mình không thể làm cha mẹ mình khổ cực hơn nữa.</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><big>男: そっかー。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Vậy à?</div></div></div><div class="tudich"><div class="candich"><big>ぼくも、そんなにぜいたくを言っちゃいけないね。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Mình cũng không thể đòi hỏi xa xỉ như thế được.</div></div></div><div class="tudich"><div class="candich"><big>ミニキ</big><big>ッ</big><big>チンなくてもいいや。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Không có nhà bếp mini cũng được.</div></div></div><div class="tudich"><div class="candich"><big>でも、朝晩シャワーを浴びるから…。</big></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Nhưng mình sẽ tắm vòi sen buổi sáng và tối, nên...</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>質問1 : 男の学生は、どのタイプの部屋を選びますか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Học sinh nam sẽ chọn phòng loại nào?</div></div></div><p></p>
+<p>
+	</p><div class="tudich"><div class="candich"><strong><big>質問2 : 女の学生は、どのタイプの部屋を選びますか。</big></strong></div><div class="kqdich" style="opacity: 0; display: none;"><span></span><div class="nddich">Học sinh nữ sẽ chọn phòng loại nào?</div></div></div><p></p>
+<p>
+	<span style="font-family: arial, helvetica, sans-serif; "></span></p></div></div><p></p>
+<p>
+	</p></div></div><p></p>
+<p style="text-align: right;">
+	<a class="hoantat" title="Bài này chưa đánh dấu hoàn thành. Click để đánh dấu hoàn tất." href="http://old.lophoctiengnhat.com/index.php?p=hoantatbaihoc&id=B1492"></a></p>
+<p style="text-align: center;">
+	<span style="font-size: 16px;"><span style="color: rgb(0, 0, 205);">~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ </span></span><span style="font-size:12px;"><a class="nut" href="http://old.lophoctiengnhat.com/index.php?p=loaibai&idl=170">Quay lại</a></span><span style="font-size: 16px;"><span style="color: rgb(0, 0, 205);"> ~ </span></span><span style="font-size: 16px;"><span style="color: rgb(0, 0, 205);">~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~</span></span><span style="font-size:16px;"><span style="color: rgb(0, 0, 205);"> </span></span></p>
+<p>
+	<span style="font-size:20px;"><span style="color: rgb(0, 0, 205);">Chú ý: </span></span></p>
+<p>
+	<span style="font-size:16px;"><span style="color: rgb(0, 0, 205);">Các lời bình bên dưới, các bạn dùng để trao đổi, hỏi bài, góp ý </span><span style="color:#ff0000;">cho chính bài này</span><span style="color: rgb(0, 0, 205);">.</span></span></p>
+<p>
+	<span style="color:#0000cd;"><span style="font-size: 16px;">Các ý kiến, trao đổi, hỏi - đáp khác xin vui l=&gt;ng</span></span><span style="font-size: 16px;"><span style="font-size: 12px;"> </span></span><span style="font-size:16px;"><span style="font-size:12px;"><a class="nut" href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&id=211">Click vào đây</a></span><span style="color:#0000cd;"><span style="font-size: 12px;"> </span>để đi đến chuyên mục dành riêng. </span></span></p>
+
+    <div style=" margin-top:20px; margin-bottom: 20px; margin-left:3px">
+        <span class="st_facebook_hcount" displaytext="Facebook" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span><span class="stMainServices st-facebook-counter" style="background-image: url(http://w.sharethis.com/images/facebook_counter.png);">&nbsp;<img src="./index.php_files/check-big.png" style="position: absolute; top: -7px; right: -7px; width: 19px; height: 19px; max-width: 19px; max-height: 19px; display: none;"></span><span class="stArrow"><span class="stButton_gradient stHBubble" style="display: inline-block;"><span class="stBubble_hcount">0</span></span></span></span></span></span>
+        <span class="st_twitter_hcount" displaytext="Tweet" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span><span class="stMainServices st-twitter-counter" style="background-image: url(http://w.sharethis.com/images/twitter_counter.png);">&nbsp;<img src="./index.php_files/check-big.png" style="position: absolute; top: -7px; right: -7px; width: 19px; height: 19px; max-width: 19px; max-height: 19px; display: none;"></span><span class="stArrow"><span class="stButton_gradient stHBubble" style="display: inline-block;"><span class="stBubble_hcount">0</span></span></span></span></span></span>
+        <span class="st_blogger_hcount" displaytext="Blogger" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span><span class="stButton_gradient"><span class="chicklets blogger">Blogger</span><img src="./index.php_files/check-big.png" style="position: absolute; top: -7px; right: -7px; width: 19px; height: 19px; max-width: 19px; max-height: 19px; display: none;"></span><span class="stArrow"><span class="stButton_gradient stHBubble" style="display: inline-block;"><span class="stBubble_hcount">0</span></span></span></span></span></span>
+        <span class="st_netlog_hcount" displaytext="Netlog" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span><span class="stButton_gradient"><span class="chicklets netlog">Netlog</span><img src="./index.php_files/check-big.png" style="position: absolute; top: -7px; right: -7px; width: 19px; height: 19px; max-width: 19px; max-height: 19px; display: none;"></span><span class="stArrow"><span class="stButton_gradient stHBubble" style="display: inline-block;"><span class="stBubble_hcount">0</span></span></span></span></span></span>
+        <span class="st_plusone_hcount" displaytext="Google +1" st_processed="yes"><div style="display:inline-block;overflow:hidden;line-height:0px;position:relative;vertical-align:middle;bottom:0px;width:75px; height:21px;">&nbsp;<div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px; background-position: initial initial; background-repeat: initial initial;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1398620906201" name="I0_1398620906201" src="./index.php_files/fastbutton.html" data-gapiattached="true" title="+1"></iframe></div></div></span>
+        <span class="st_fblike_hcount" displaytext="Facebook Like" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;position:relative;margin:3px 3px 0;padding:0px;font-size:11px;line-height:0px;vertical-align:bottom;overflow:visible;"><div data-action="" data-send="false" data-layout="button_count" data-show-faces="false" class="fb-like fb_iframe_widget" data-href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&amp;id=1492" fb-xfbml-state="parsed" fb-iframe-plugin-query="app_id=723032654379258&amp;href=http%3A%2F%2Fold.lophoctiengnhat.com%2Findex.php%3Fp%3Dchitietbai%26id%3D1492&amp;layout=button_count&amp;locale=vi_VN&amp;sdk=joey&amp;send=false&amp;show_faces=false"><span style="vertical-align: top; width: 0px; height: 0px;"><iframe name="f3d145d958" width="1000px" height="1000px" frameborder="0" allowtransparency="true" scrolling="no" title="fb:like Facebook Social Plugin" src="about:blank" style="border: none; visibility: hidden;"></iframe></span></div></span></span>
+    </div>
+    
+    
+<div id="comment">
+ <div class="fb-comments fb_iframe_widget" data-href="http://old.lophoctiengnhat.com/index.php?p=chitietbai&amp;id=1492" data-width="675" fb-xfbml-state="rendered"><span style="height: 160px; width: 675px;"><iframe id="f1f9a0cf94" name="f295b44aa" scrolling="no" title="Facebook Social Plugin" class="fb_ltr" src="./index.php_files/comments.html" style="border: none; overflow: hidden; height: 160px; width: 675px;"></iframe></span></div>
+ </div>
+              
+
+      </div></div> <!-- Left-col-->            
+<div id="right-col">
+
+    
+       
+   
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            	
+
+                <div class="right-module">
+
+                	<div class="right-top"><span>Phiên bản mới 3.0</span></div>
+
+                    <div class="right-body">
+										<div style="padding:25px 30px; text-align:center">
+                    
+                 
+
+          
+
+							<a href="http://lophoctiengnhat.com/" target="_new"><strong></strong></a><strong><a href="http://lophoctiengnhat.com/" title="Ver3.0" target="_blank">Đi đến phiên bản mới 3.0</a><br>
+
+							
+                    
+                    </strong></div><strong>
+
+                    </strong></div><strong>
+
+                    <div class="right-foot"></div>
+
+                </strong></div><strong>
+                
+
+                
+                                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                <div class="right-module">
+
+                	<div class="right-top"><span>Thông tin mới của website</span> </div>
+
+					
+
+                    <div class="right-body">
+
+                    
+
+
+                        
+
+
+                        
+
+
+                        
+
+
+                        
+
+
+                        
+
+                        <a class="right_thongitn_web" target="_blank" href="http://lophoctiengnhat.com/">
+
+                        	<span class="right_thongitn_title">
+
+                        		Phiên bản mới Ver3.0
+
+                            </span>
+
+                        </a>
+
+                        
+
+                        <a class="right_thongitn_web" target="_blank" href="https://www.facebook.com/lophoctiengnhat.com2014">
+
+                        	<span class="right_thongitn_title">
+
+                        		Facebook Hỗ trợ Website
+
+                            </span>
+
+                        </a>
+
+                        
+
+                        <a class="right_thongitn_web" target="_blank" href="http://lophoctiengnhat.com/huong-dan-nap-credit.html">
+
+                        	<span class="right_thongitn_title">
+
+                        		Hướng dẫn nạp Credit và nâng cấp VIP
+
+                            </span>
+
+                        </a>
+
+                        
+
+
+                        
+
+
+                        
+
+                        <a href="http://lophoctiengnhat.com/ca-nhan/hysBoLrZgG-pO9qOI_wOmR5mYWp_E71SNHl7ENc-8gc.html" title="Liên hệ lophoctiengnhat.com" class="right_thongitn_web">
+
+                        	<span class="right_thongitn_title">
+
+                        		Liên hệ Admin
+
+                            </span>    
+
+                        </a>
+
+
+
+				   </div>	   
+
+                  
+
+				   
+
+                    <div class="right-foot"></div>
+
+                    
+
+                </div>
+
+                
+
+            	            
+
+
+
+                 <div class="right-module">
+
+                	<div class="right-top"><span>Thống kê online</span> </div>
+
+                    <div class="right-body">
+
+                    
+                       
+
+                    	<div class="thongke">                         
+
+                            <div class="tk-title" style="background-image: url(../images/members.png)">Thành viên:</div> 
+
+                            <div class="tk-cont">5
+                            </div>                           
+
+                        </div>
+
+                        <div class="thongke">
+
+                            <div class="tk-title" style=" background-image: url(../images/people.png)">Khách:</div> 
+
+                            <div class="tk-cont">
+
+                            	7
+                            </div>                           
+
+                        </div>
+
+                       <div class="thongke">
+
+                            <div class="tk-title" style="background-image: url(../images/people.png)">Hôm nay:</div> 
+
+                            <div class="tk-cont">
+
+                            	51
+                            </div>                           
+
+                        </div>
+
+                        <div class="thongke">
+
+                            <div class="tk-title" style="background-image: url(../images/people.png)">Hôm qua:</div> 
+
+                            <div class="tk-cont">
+
+                            	2860
+                            </div>                           
+
+                        </div>
+
+                         <div class="thongke">
+
+                            <div class="tk-title" style="background-image: url(../images/statistics.png)">Toàn bộ:</div> 
+
+                            <div class="tk-cont">
+
+                            	6898617
+                            </div>                           
+
+                        </div>
+
+                        
+
+                   </div>
+
+                    <div class="right-foot"></div>
+
+                    
+
+                </div> 
+
+         
+
+</strong></div><strong>       
+
+        </strong></div><strong> <!-- Content-bg-->    
+        </strong></div><strong>
+    
+        <div id="foot-wrap">
+
+
+
+    	<div id="footer" style="color:#CCC">
+
+        <p align="center" style=" margin:0; margin-top:34px;">Bản quyền thuộc về <strong>trường ngoại ngữ Việt Nhật</strong> - Đ/C: 8A - Cư xá Phan Đăng Lưu - P.3 - Q. Bình Thạnh - TP.HCM</p> 
+
+        <p align="center" style=" margin:0;">ĐT: (08)35 100 555 - Hotline: 0937 465 159</p> 
+        <p align="center" style=" margin:0;">Email: admin@lophoctiengnhat.com - lophoctiengnhat.com@gmail.com</p> 
+
+
+
+  </div>
+
+
+
+    </div>     
+    </strong></div><strong>
+
+</strong><div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><div id="stcpDiv" style="position: absolute; top: -1999px; left: -1988px;">ShareThis Copy and Paste</div><iframe id="stSegmentFrame" name="stSegmentFrame" src="./index.php_files/getSegment.html" frameborder="0" scrolling="no" width="0px" height="0px" style="display:none;"></iframe><div id="stwrapper" class="stwrapper" style="visibility: hidden; top: -999px; left: -999px;"><div class="stclose"></div><iframe allowtransparency="true" id="stLframe" class="stLframe" name="stLframe" frameborder="0" scrolling="no" width="353px" height="350px" src="./index.php_files/index.2bc961db2b80add11bfbd2c8a24f6ba1.html" style="top: 0px; left: 0px;"></iframe></div><div id="fb-root"></div><iframe name="oauth2relay440654874" id="oauth2relay440654874" src="./index.php_files/postmessageRelay.html" tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe><div id="krOPPVdhx8kHsGOGRogVpjzgOnFnmwNLrqjBRq8KrpNMfRGbZO" style="display:none !important;"></div></body></html>

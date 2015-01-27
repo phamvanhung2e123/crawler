@@ -26,8 +26,6 @@ class KiemtienSpider(Spider):
             print audio_url
             print audio_name
             self.download_audio(filename,audio_name,audio_url)
-
-
         with open(filename, 'wb') as f:
             f.write(response.body)
 
